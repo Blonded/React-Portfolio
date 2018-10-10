@@ -8,7 +8,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0000;
+  background-image: url(https://unsplash.com/photos/MF9Wy1NA55I);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
