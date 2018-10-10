@@ -9,21 +9,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <div className="Background-img">
-        <img alt="" className="" src={bg_img} width="1450px" />
+        <img alt="clouds" className="clouds" src={bg_img} width="1450px" />
         </div>
           
           <p>
             Edit <code>src/App.js</code> and save to reload.
 
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           WOW MY BRAINS
-          </a>
+        
         </header>
       </div>
     );
