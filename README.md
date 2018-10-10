@@ -1,6 +1,8 @@
 # React Portfolio
 
-This is my portfolio re-created entirely from scratch using React.js
+This is my portfolio re-created entirely from scratch using React.js.
+
+** Currently under construction.
 
 
 ## Built with:
