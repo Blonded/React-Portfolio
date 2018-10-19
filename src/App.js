@@ -11,12 +11,6 @@ class App extends Component {
         <div className="Background-img">
         <img alt="clouds" className="clouds" src={bg_img} width="1450px" />
         </div>
-          
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-
-          </p>
-        
         </header>
       </div>
     );
