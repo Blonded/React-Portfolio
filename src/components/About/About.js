@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style.css';
 
 
+const About = () => {
+
+}
 
 
 
-
-
-
-export default About;
+export default About; 

@@ -3,6 +3,9 @@ import './style.css';
 
 
 
+const Projects = () => {
+
+}
 
 
 

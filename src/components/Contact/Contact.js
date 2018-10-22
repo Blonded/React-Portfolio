@@ -3,6 +3,10 @@ import './style.css';
 
 
 
+const Contact = () => {
+
+}
+
 
 
 
