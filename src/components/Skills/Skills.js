@@ -3,6 +3,9 @@ import './style.css';
 
 
 const Skills = () => {
+    return(
+        <h3>Skills</h3>
+    )
 }
 
 

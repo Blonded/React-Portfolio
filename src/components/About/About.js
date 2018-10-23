@@ -3,7 +3,9 @@ import './style.css';
 
 
 const About = () => {
-
+    return(
+        <h1>Hello.</h1>
+    )
 }
 
 

@@ -3,6 +3,9 @@ import './style.css';
 
 
 const Location = () => {
+    return(
+        <h3>Location</h3>
+    )
 }
 
 

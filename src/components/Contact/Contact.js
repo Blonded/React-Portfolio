@@ -4,6 +4,9 @@ import './style.css';
 
 
 const Contact = () => {
+    return(
+        <h3>This is the contact section</h3>
+    )
 
 }
 
