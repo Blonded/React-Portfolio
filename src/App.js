@@ -14,8 +14,8 @@ class App extends Component {
         <header className="App-header">
         <Hero id="hero" />
         <About id="about" />
-        <Contact id="contact" />
         <Location id="location" />
+        <Contact id="contact" />
         <Projects id="projects" />
         <Skills id="skills" />
         </header>

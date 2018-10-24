@@ -1,8 +1,16 @@
 .App {
   text-align: center;
-  background-color: #6f8b95;
+  /* background-color: #6f8b95; */
+  /* background: url('./public/assets/imgs/gradient1.jpg'); */
 }
 
+.App-header{
+  position: absolute;
+  bottom: 10;
+  width: 100%;
+  height: 10vw;
+  border-radius: 0 0 85% 85% / 30%;
+}
 
 
 .Background-img {

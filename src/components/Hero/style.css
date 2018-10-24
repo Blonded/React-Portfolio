@@ -1,11 +1,20 @@
+html, body {
+	/* background: url("/assets/imgs/clouds.jpg") center fixed; */
+}
+
 .hero {
+	/* background-color: pink; */
 	background: url("/assets/imgs/clouds.jpg") center fixed;
 	background-size: cover;
+	/* position: fixed; */
 	min-height: 100vh;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	/* border-bottom-style: ridge; */
 }
 .hero img {
 	height: 250px;
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
 
