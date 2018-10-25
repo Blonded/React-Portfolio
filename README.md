@@ -16,7 +16,7 @@ This is my portfolio re-created entirely from scratch using React.js.
 
 ## Packages:
 React-Bootstrap:
-https://react-bootstrap.github.io/getting-started/introduction
+npm install --save react-bootstrap
 
 
 ## Authors:
