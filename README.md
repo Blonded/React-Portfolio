@@ -10,7 +10,8 @@ This is my portfolio re-created entirely from scratch using React.js.
 • CSS
 • Javascript, ECMA6.
 • Node.js
-• React
+• React.js
+• React-Bootstrap
 • Bootstrap
 • Google Fonts
 
