@@ -19,6 +19,9 @@ This is my portfolio re-created entirely from scratch using React.js.
 React-Bootstrap:
 npm install --save react-bootstrap
 
+Material UI:
+npm install @material-ui/core
+
 
 ## Authors:
 Blonded[Github](https://github.com/Blonded)

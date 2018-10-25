@@ -6,3 +6,8 @@
 .about-details{
     font-family: 'Quicksand', sans-serif;
 }
+
+.card{
+    background: white;
+    width: 30%;
+}
