@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
-import Location from './components/Location';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Hero from './components/Hero';
@@ -14,7 +13,6 @@ class App extends Component {
         <header className="App-header">
         <Hero id="hero" />
         <About id="about" />
-        <Location id="location" />
         <Contact id="contact" />
         <Projects id="projects" />
         <Skills id="skills" />
