@@ -1,38 +1,62 @@
-html, body {
-	/* background: url("/assets/imgs/clouds.jpg") center fixed; */
+.hero {
+    background: url("/assets/imgs/clouds.jpg") center fixed;
+    background-size: cover;
+    min-height: 95vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 0 -20em 5em;
+    position: relative;
+    text-align: center;
+}
+.hero .logo-wrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
-.hero {
-	/* background-color: pink; */
-	background: url("/assets/imgs/clouds.jpg") center fixed;
-	background-size: cover;
-	/* position: fixed; */
-	min-height: 100vh;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	/* border-bottom-style: ridge; */
-}
 .hero img {
-	height: 250px;
-	margin-top: 20%;
+    height: 400px;
+    margin-bottom: 3%;
+}.hero {
+    background: url("/assets/imgs/clouds.jpg") center fixed;
+    background-size: cover;
+    min-height: 95vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 0 -20em 5em;
+    position: relative;
+    text-align: center;
+}
+.hero .logo-wrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero img {
+    height: 400px;
+    margin-bottom: 3%;
 }
 
 
 
 @media only screen and (max-width: 40em) {
-	.hero img {
-	    height: 150px ;
-	    margin-top: 70%;
-	}
-	.hero{
-	    background: url("/assets/imgs/clouds.jpg")no-repeat bottom;
-	    background-size: cover;
-	    min-height: 500px;
-	}
+    .hero img {
+        height: 200px ;
+        margin-bottom: 1%;
+    }
+    .hero{
+        background: url("/assets/imgs/clouds.jpg")no-repeat top;
+        background-size: cover;
+        min-height: 500px;
+        margin: 0 -14em 5em;
+    }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-	.hero img {
-		height: 300px;
-		margin-top: 45%;
-	}
+    .hero img {
+        height: 200px ;
+      margin-bottom: 1%;
+    }
 }

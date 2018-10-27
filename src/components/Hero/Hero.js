@@ -7,9 +7,10 @@ import './style.css';
 const Hero = () => {
     return(
         <div className="hero">
-		<img src="/assets/imgs/wlogo.png" alt="Logo"/>
+            <div className="logo-wrap">
+		        <img src="/assets/imgs/wlogo.png" alt="Logo"/>
+            </div>
 		</div>
-        
     )
 
 }
