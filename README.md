@@ -1,8 +1,9 @@
 # React Portfolio
 
-This is my portfolio re-created entirely from scratch using React.js.
+This is my portfolio re-created entirely from scratch using React.
 
-** Currently under construction.
+** Currently under construction. **
+
 
 
 ## Built with:
@@ -24,4 +25,4 @@ npm install @material-ui/core
 
 
 ## Authors:
-Blonded[Github](https://github.com/Blonded)
+Blonded - [Github](https://github.com/Blonded)
