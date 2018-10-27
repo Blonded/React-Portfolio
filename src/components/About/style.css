@@ -1,13 +1,17 @@
 .about{
     font-family: 'Alex Brush', cursive;
     letter-spacing: 2px;
+    padding-right: 40%;
 }
 
 .about-details{
     font-family: 'Quicksand', sans-serif;
+    padding-top: 10%;
+    width: 60%;
 }
 
-.card{
-    background: white;
-    width: 30%;
+.about-card{
+    align-content: center;
+    /* width: 50%; */
+    box-shadow: 4cm;
 }
