@@ -14,7 +14,7 @@ const About = () => {
         <Grid>
                 <Row>
 					<Col xs={6} sm={6} md={6}>
-                        <img src="/assets/imgs/lena-edit-0.png" alt="Logo"/>
+                        <img src="/assets/imgs/lena-edit-0.png" alt="aboutphoto"/>
                     </Col>
                     <Col xs={6} sm={6} md={6}>
                         <h1 className= "about">About</h1>

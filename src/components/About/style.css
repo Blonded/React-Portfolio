@@ -13,6 +13,13 @@
 
 .about-card{
     align-content: center;
-    /* width: 50%; */
+   
+}
+
+.card-body{
+    /* height: '45vw'; */
+    /* width: '30vw'; */
+    border-radius: 5px;
     box-shadow: 4cm;
+    border: 30px;
 }
