@@ -15,3 +15,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
+#about .bio {
+    padding: 2% 5% 0 2%;  
+}
