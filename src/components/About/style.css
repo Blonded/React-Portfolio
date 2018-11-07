@@ -19,7 +19,12 @@
 .card-body{
     /* height: '45vw'; */
     /* width: '30vw'; */
-    border-radius: 5px;
-    box-shadow: 4cm;
-    border: 30px;
+    /* border-radius: 5px; */
+    /* box-shadow: 80cm; */
+    /* border: 130px; */
+    /* background: red; */
+    width: 100px;
+    margin: 10px;
+    min-height: 200px;
+    padding-left: 40px;
 }
