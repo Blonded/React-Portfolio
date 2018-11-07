@@ -1,30 +1,7 @@
-.about{
-    font-family: 'Alex Brush', cursive;
-    letter-spacing: 2px;
-    padding-right: 40%;
-    font-size: 40px;
-}
-
-.about-details{
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 10%;
-    width: 60%;
-}
-
-.about-card{
-    align-content: center;
-   
-}
-
-.card-body{
-    /* height: '45vw'; */
-    /* width: '30vw'; */
-    /* border-radius: 5px; */
-    /* box-shadow: 80cm; */
-    /* border: 130px; */
-    /* background: red; */
-    width: 100px;
-    margin: 10px;
-    min-height: 200px;
-    padding-left: 40px;
+#about {
+    box-shadow: 10px 0px 22px 0px rgba(0,0,0,0.3);  
+    text-align: left; 
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
