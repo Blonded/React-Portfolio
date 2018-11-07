@@ -5,3 +5,13 @@
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+#about .img-wrap {
+    padding-left: 0;
+}
+
+#about .img-wrap img {
+    height: 475px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
