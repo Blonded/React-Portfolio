@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Contact id="contact" />
         <Projects id="projects" />
         <Skills id="skills" />
+        <Footer/>
         </header>
       </div>
     );
