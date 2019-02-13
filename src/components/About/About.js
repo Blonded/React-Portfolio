@@ -6,6 +6,9 @@ import { Grid, Row, Col} from 'react-bootstrap';
 
 class About extends Component { 
     
+    state = {
+        githubico:"/assets/imgs/github.png"
+    }
 
     render(){
         return(
@@ -21,7 +24,20 @@ class About extends Component {
                         Hey there! My name is Lena and i'm a full-stack web developer currently residing in the Bay Area [San Francisco]. Coming from a creative background i've always been passionate about pushing myself artistically, enjoying the many ranges and paths it can take to have someones ideas come to life - or even my own!
                         </p>
                         <div className="connect">
-                        <a href="https://github.com/Blonded" target="_blank"  title="github"></a>
+                        <a href="https://github.com/Blonded" target="_blank"  title="github"> 
+                        <img src={this.state.githubico}
+                                    onMouseEnter={() => {
+                                    this.setState({
+                                      githubico: "/assets/imgs/github1.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                      githubico: "/assets/imgs/github.png"
+                                    })
+                                    }}/> 
+
+                        </a>
 
                         <a href="www.linkedin.com/in/lena-m-73b471161" target="_blank" title="linkedin"></a>
 
