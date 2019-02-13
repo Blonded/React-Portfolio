@@ -4,8 +4,8 @@ import './style.css';
 const Footer = () => {
     return(
         <footer>
-            <h2> footer
-            </h2>
+            <p> © Lena Martinson | 2019
+            </p>
         </footer>
     )
 }
