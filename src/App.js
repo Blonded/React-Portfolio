@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Recommendations from './components/Recommendations';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Interests from './components/Interests';
@@ -21,6 +22,7 @@ class App extends Component {
         <Contact id="contact" />
         <Projects id="projects" />
         <Skills id="skills" />
+        <Recommendations id="recommendations" />
         <Footer/>
         </header>
       </div>

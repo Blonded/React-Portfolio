@@ -1,0 +1,80 @@
+#recommendations {
+	background: url("/assets/imgs/stone.png") center fixed;
+	background-size: cover;
+	height: 650px;
+	margin: 4% 0;
+}
+
+#recommendations .rec {
+	margin: 4% 0 0;
+}
+
+#recommendations .card {
+	height: 450px;
+	margin: 20% 1% 0;
+	box-shadow: 10px 0px 22px 0px rgba(0,0,0,0.22);  
+}
+
+#recommendations .rec1 .card {
+	height: 500px;
+	margin: 6% 1% 0;
+}
+
+#recommendations .card-top {
+	height: 25%;
+	background-color: rgba(229, 202, 196, .65);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#recommendations .card-btm {
+	background-color: green;
+	height: 75%;
+	background-color: #E5CAC4;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#recommendations .card-btm img {
+	height: 150px;
+	width: 150px;
+	margin-top: -75px;
+	margin-bottom: 10px;
+}
+
+#recommendations .card-btm p{
+	text-align: left;
+}
+
+#recommendations .card-btm p span {
+	font-family: 'Italianno', cursive;
+	font-size: 2em;
+	line-height: 0;
+}
+
+#recommendations .card-btm .auth {
+	text-transform: capitalize;
+}
+
+@media only screen and (max-width: 40em) {
+	#recommendations {
+		height: auto;
+		padding-bottom: 5%;
+		margin: 10% 0;
+	}
+	#recommendations .card {
+		margin: 10% 1%;
+	}
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	#recommendations {
+		height: auto !important;
+		padding-bottom: 5%;
+		margin: 10% 0;
+	}
+	#recommendations .card {
+		margin: 10% 1%;
+	}
+}
