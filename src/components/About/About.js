@@ -29,6 +29,8 @@ class About extends Component {
 
                         <a href="" target="_blank" title="resume"></a>
 
+                        <a href="https://medium.com/@blonded" target="_blank" title="medium"></a>
+
 
                         </div>
                     </Col>
