@@ -18,7 +18,6 @@ class App extends Component {
         <Hero id="hero" />
         <About id="about" />
         <Spacer id="spacer" />
-      
         <Projects id="projects" />
         <Interests id="interests" />
         <Contact id="contact" />
