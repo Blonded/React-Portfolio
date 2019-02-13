@@ -1,0 +1,6 @@
+#spacer {
+    margin: 4% 0;
+    background: url("/assets/imgs/crystal.png") center fixed;
+    background-size: cover;
+    height: 150px;
+}

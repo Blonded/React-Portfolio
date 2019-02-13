@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Interests from './components/Interests';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import Spacer from './components/Spacer';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <Hero id="hero" />
+        <Spacer id="spacer" />
         <About id="about" />
         <Interests id="interests" />
         <Contact id="contact" />
