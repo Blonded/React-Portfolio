@@ -16,11 +16,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <Hero id="hero" />
-        <Spacer id="spacer" />
         <About id="about" />
+        <Spacer id="spacer" />
+      
+        <Projects id="projects" />
         <Interests id="interests" />
         <Contact id="contact" />
-        <Projects id="projects" />
         <Skills id="skills" />
         <Recommendations id="recommendations" />
         <Footer/>
