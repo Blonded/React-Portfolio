@@ -5,7 +5,9 @@ import './style.css';
 
 const Projects = () => {
     return(
-        <h3>This is projects</h3>
+        <h3>
+            Projects:
+        </h3>
     )
 
 }
