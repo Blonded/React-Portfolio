@@ -9,8 +9,10 @@ class About extends Component {
     state = {
         githubico:"/assets/imgs/github.png",
         linkedinico:"/assets/imgs/linkedin.png",
+        mediumico: "/assets/imgs/med.png",
         emailico:"/assets/imgs/email.png",
         resumeico:"/assets/imgs/resume.png"
+
     }
 
     render(){
@@ -56,6 +58,21 @@ class About extends Component {
                                     }}/> 
                         </a>
 
+                        <a href="https://medium.com/@blonded" target="_blank" title="medium">
+                        <img src={this.state.mediumico}
+                                    onMouseEnter={() => {
+                                    this.setState({
+                                      mediumico: "/assets/imgs/med1.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                      mediumico: "/assets/imgs/med.png"
+                                    })
+                                    }}/> 
+                        
+                        </a>
+
                         <a href="" target="_blank" title="email">
                         <img src={this.state.emailico}
                                     onMouseEnter={() => {
@@ -82,10 +99,6 @@ class About extends Component {
                                       resumeico: "/assets/imgs/resume.png"
                                     })
                                     }}/> 
-                        </a>
-
-                        <a href="https://medium.com/@blonded" target="_blank" title="medium">
-                        
                         </a>
 
 
