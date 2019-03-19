@@ -7,7 +7,10 @@ import { Grid, Row, Col} from 'react-bootstrap';
 class About extends Component { 
     
     state = {
-        githubico:"/assets/imgs/github.png"
+        githubico:"/assets/imgs/github.png",
+        linkedinico:"/assets/imgs/linkedin.png",
+        emailico:"/assets/imgs/email.png",
+        resumeico:"/assets/imgs/resume.png"
     }
 
     render(){
@@ -39,13 +42,51 @@ class About extends Component {
 
                         </a>
 
-                        <a href="www.linkedin.com/in/lena-m-73b471161" target="_blank" title="linkedin"></a>
+                        <a href="www.linkedin.com/in/lena-m-73b471161" target="_blank" title="linkedin">
+                        <img src={this.state.linkedinico}
+                                    onMouseEnter={() => {
+                                    this.setState({
+                                      linkedinico: "/assets/imgs/linkedin1.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                      linkedinico: "/assets/imgs/linkedin.png"
+                                    })
+                                    }}/> 
+                        </a>
 
-                        <a href="" target="_blank" title="email"></a>
+                        <a href="" target="_blank" title="email">
+                        <img src={this.state.emailico}
+                                    onMouseEnter={() => {
+                                    this.setState({
+                                      emailico: "/assets/imgs/email1.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                      emailico: "/assets/imgs/email.png"
+                                    })
+                                    }}/> 
+                        </a>
 
-                        <a href="" target="_blank" title="resume"></a>
+                        <a href="" target="_blank" title="resume">
+                        <img src={this.state.resumeico}
+                                    onMouseEnter={() => {
+                                    this.setState({
+                                      resumeico: "/assets/imgs/resume1.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                      resumeico: "/assets/imgs/resume.png"
+                                    })
+                                    }}/> 
+                        </a>
 
-                        <a href="https://medium.com/@blonded" target="_blank" title="medium"></a>
+                        <a href="https://medium.com/@blonded" target="_blank" title="medium">
+                        
+                        </a>
 
 
                         </div>

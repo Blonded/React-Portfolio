@@ -19,3 +19,41 @@
 #about .bio {
     padding: 2% 5% 0 2%;  
 }
+
+#about .connect {
+    margin-top: 8%;
+    text-align: left;
+}
+
+#about .connect img {
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+
+#about .connect img:hover {
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 40em) {
+    #about {
+        margin: 10% 8px;
+    }
+    #about .img-wrap img {
+        height: 350px;
+        border-bottom-left-radius: 0px;
+    }
+    #about .bio {
+        padding: 5%;  
+    }
+
+} /* max-width 640px, mobile-only styles small */
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+    #about .img-wrap img {
+        border-bottom-left-radius: 0px;
+    }
+
+} /* min-width 641px and max-width 1024px - tablet styles medium */
