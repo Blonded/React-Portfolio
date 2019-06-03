@@ -2,8 +2,8 @@
 
 This is my portfolio re-created entirely from scratch using React.
 
-** Currently under construction. **
-
+🚨 Currently under construction. 🚨
+Demo (https://blonded.github.io/React-Portfolio/)
 
 
 ## Built with:
