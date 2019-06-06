@@ -3,6 +3,9 @@
 	background-size: cover;
 	height: 650px;
 	margin: 4% 0;
+	font-family:'Quicksand', sans-serif;
+	letter-spacing: 0.2px;
+	font: 20px;
 }
 
 #recommendations .rec {
@@ -55,6 +58,8 @@
 #recommendations .card-btm .auth {
 	text-transform: capitalize;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Quicksand&display=swap');
 
 @media only screen and (max-width: 40em) {
 	#recommendations {
