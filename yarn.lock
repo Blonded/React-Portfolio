@@ -3773,9 +3773,9 @@ handle-thing@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
 
-handlebars@^4.0.3:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.12.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
+handlebars@^4.0.14:
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.14.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
   dependencies:
     async "^2.5.0"
     optimist "^0.6.1"
@@ -4901,9 +4901,9 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
-js-yaml@^3.12.0, js-yaml@^3.7.0, js-yaml@^3.9.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
+js-yaml@^3.13.1, js-yaml@^3.7.0, js-yaml@^3.9.0:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
