@@ -17,7 +17,12 @@
 }
 
 #about .bio {
-    padding: 2% 5% 0 2%;  
+    padding: 2% 5% 0 2%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    font-family: 'Alex Brush', cursive;
 }
 
 #about .connect {
@@ -34,6 +39,8 @@
 #about .connect img:hover {
    cursor: pointer;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Quicksand&display=swap');
 
 @media only screen and (max-width: 40em) {
     #about {

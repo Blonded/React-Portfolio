@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './style.css';
+import { Grid, Row, Col} from 'react-bootstrap';
 
 
 
 const Projects = () => {
     return(
-        <h3>
-            Projects:
-        </h3>
+        <Grid>
+            <h1>Projects & Skills</h1>
+        </Grid>
+            
     )
 
 }

@@ -19,7 +19,7 @@ class About extends Component {
         return(
             <Grid>
                 <Row id="about">
-					<Col xs={12} sm={12} md={6} align="left" className="img-wrap">
+					          <Col xs={12} sm={12} md={6} align="left" className="img-wrap">
                         <img src="/assets/imgs/lena-edit-0.png" alt="aboutphoto"/>
                     </Col>
 
