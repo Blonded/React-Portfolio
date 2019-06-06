@@ -19,7 +19,7 @@ render(){
         <Grid>
             <Row id="projects">
             <h1>Projects</h1>
-            <Col xs={3} sm={3} md={3} className="project-display"></Col>
+            <Col xs={12} sm={12} md={12} className="project-display">
             <a href="https://github.com/Blonded/Foodtroverts" target="_blank" title="foodtroverts">
             <img src={this.state.foodtrovertsp}
                         onMouseEnter={() => {
@@ -71,6 +71,7 @@ render(){
                                         burgerp: "/assets/imgs/burger.png"
                                     })
                                     }}/> </a>
+            </Col>
 
             </Row>
         </Grid>
