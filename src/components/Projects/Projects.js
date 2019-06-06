@@ -3,14 +3,81 @@ import './style.css';
 import { Grid, Row, Col} from 'react-bootstrap';
 
 
+class Projects extends Component {
 
-const Projects = () => {
+    state = {
+
+        foodtrovertsp:"/assets/imgs/foodtroverts.png",
+        satiablep:"/assets/imgs/satiable.png",
+        bamazonp:"/assets/imgs/bamazon.png",
+        burgerp:"/assets/imgs/burger.png"
+    }
+
+
+render(){
     return(
         <Grid>
-            <h1>Projects & Skills</h1>
+            <Row id="projects">
+            <h1>Projects</h1>
+            <Col xs={3} sm={3} md={3} className="project-display"></Col>
+            <a href="https://github.com/Blonded/Foodtroverts" target="_blank" title="foodtroverts">
+            <img src={this.state.foodtrovertsp}
+                        onMouseEnter={() => {
+                            this.setState({
+                                foodtrovertsp: "/assets/imgs/foodtroverts.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                        foodtrovertsp: "/assets/imgs/foodtroverts.png"
+                                    })
+                                    }}/> </a>
+
+            <a href="https://github.com/Blonded/Satiable-Soiree" target="_blank" title="satiable">
+            <img src={this.state.satiablep}
+                        onMouseEnter={() => {
+                            this.setState({
+                                satiablep: "/assets/imgs/satiable.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                        satiablep: "/assets/imgs/satiable.png"
+                                    })
+                                    }}/> </a>
+
+            <a href="https://github.com/Blonded/bamazon" target="_blank" title="bamazon">
+            <img src={this.state.bamazonp}
+                        onMouseEnter={() => {
+                            this.setState({
+                                bamazonp: "/assets/imgs/bamazon.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                        bamazonp: "/assets/imgs/bamazon.png"
+                                    })
+                                    }}/> </a>
+            
+            <a href="https://github.com/Blonded/burger" target="_blank" title="burger">
+            <img src={this.state.burgerp}
+                        onMouseEnter={() => {
+                            this.setState({
+                                burgerp: "/assets/imgs/burger.png"
+                                    })
+                                    }}
+                                    onMouseOut={() => {
+                                    this.setState({
+                                        burgerp: "/assets/imgs/burger.png"
+                                    })
+                                    }}/> </a>
+
+            </Row>
         </Grid>
             
     )
+
+}
 
 }
 
