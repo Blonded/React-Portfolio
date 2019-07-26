@@ -6,7 +6,6 @@ import { Grid, Row, Col} from 'react-bootstrap';
 class Projects extends Component {
 
     state = {
-
         foodtrovertsp:"/assets/imgs/foodtroverts.png",
         satiablep:"/assets/imgs/satiable.png",
         bamazonp:"/assets/imgs/bamazon.png",
@@ -24,7 +23,7 @@ render(){
             <img src={this.state.foodtrovertsp}
                         onMouseEnter={() => {
                             this.setState({
-                                foodtrovertsp: "/assets/imgs/foodtroverts.png"
+                                foodtrovertsp: "/assets/imgs/foodtroverts2.png"
                                     })
                                     }}
                                     onMouseOut={() => {
@@ -37,7 +36,7 @@ render(){
             <img src={this.state.satiablep}
                         onMouseEnter={() => {
                             this.setState({
-                                satiablep: "/assets/imgs/satiable.png"
+                                satiablep: "/assets/imgs/satiable2.png"
                                     })
                                     }}
                                     onMouseOut={() => {
@@ -50,7 +49,7 @@ render(){
             <img src={this.state.bamazonp}
                         onMouseEnter={() => {
                             this.setState({
-                                bamazonp: "/assets/imgs/bamazon.png"
+                                bamazonp: "/assets/imgs/bamazon2.png"
                                     })
                                     }}
                                     onMouseOut={() => {
@@ -63,7 +62,7 @@ render(){
             <img src={this.state.burgerp}
                         onMouseEnter={() => {
                             this.setState({
-                                burgerp: "/assets/imgs/burger.png"
+                                burgerp: "/assets/imgs/burger2.png"
                                     })
                                     }}
                                     onMouseOut={() => {
