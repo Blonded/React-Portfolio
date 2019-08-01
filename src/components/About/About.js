@@ -44,7 +44,7 @@ class About extends Component {
 
                         </a>
 
-                        <a href="www.linkedin.com/in/lena-m-73b471161" target="_blank" title="linkedin">
+                        <a href="https://linkedin.com/in/lena-m-73b471161" target="_blank" title="linkedin">
                         <img src={this.state.linkedinico}
                                     onMouseEnter={() => {
                                     this.setState({
